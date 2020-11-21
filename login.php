@@ -9,10 +9,7 @@
 
  </form>
 <?
-include ('lib/connect.php'); 
-include ('lib/module_global.php'); 
 
- 
 if($_GET['action'] == "out") out(); 
  
 if (login()) 
